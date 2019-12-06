@@ -3,7 +3,7 @@
 mode 84,25
 color 0A
 
-echo Windows Optimizer 1.0 ($) GITHUB/KID-X
+echo Windows Optimizer 1.0 ($) GITHUB/NARCOTIC
 echo ------------------------------------------------------------------------------------
 
 ping 8.8.8.8 -n 4 > nul
@@ -31,6 +31,6 @@ ping 8.8.8.8 -n 4 > nul
 color 0A
 echo.
 echo ------------------------------------------------------------------------------------
-echo Windows Optimizer 1.0 ($) GITHUB/KID-X
+echo Windows Optimizer 1.0 ($) GITHUB/NARCOTIC
 echo.
 pause
