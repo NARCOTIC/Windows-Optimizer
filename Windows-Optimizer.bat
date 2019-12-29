@@ -62,10 +62,10 @@ goto menu
 :done
   color 0C
   echo.
-  echo 8888b.   dP"Yb  88b 88 888888 
+  echo 8888b.   dP.Yb  88b 88 888888 
   echo  8I  Yb dP   Yb 88Yb88 88__   
   echo  8I  dY Yb   dP 88 Y88 88--   
-  echo 8888Y"   YbodP  88  Y8 888888                                
+  echo 8888Y.   YbodP  88  Y8 888888                                
   echo.
   echo.
   ping 8.8.8.8 -n 2 > nul
