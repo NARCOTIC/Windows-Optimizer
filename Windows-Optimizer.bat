@@ -74,7 +74,7 @@ goto permissions
   echo `888'   `Y8b   d8P'  `Y8b  `888b.     `8' `888'     `8 
   echo  888      888 888      888  8 `88b.    8   888         
   echo  888      888 888      888  8   `88b.  8   888oooo8    
-  echo  888      888 888      888  8     `88b.8   888    "    
+  echo  888      888 888      888  8     `88b.8   888         
   echo  888     d88' `88b    d88'  8       `888   888       o 
   echo o888bood8P'    `Y8bood8P'  o8o        `8  o888ooooood8
   echo.
@@ -87,7 +87,7 @@ goto permissions
   echo `888'     `8 `888   `Y88. `888   `Y88.  d8P'  `Y8b  `888   `Y88. 
   echo  888          888   .d88'  888   .d88' 888      888  888   .d88' 
   echo  888oooo8     888ooo88P'   888ooo88P'  888      888  888ooo88P'  
-  echo  888    "     888`88b.     888`88b.    888      888  888`88b.    
+  echo  888          888`88b.     888`88b.    888      888  888`88b.    
   echo  888       o  888  `88b.   888  `88b.  `88b    d88'  888  `88b.  
   echo o888ooooood8 o888o  o888o o888o  o888o  `Y8bood8P'  o888o  o888o
   echo. 
