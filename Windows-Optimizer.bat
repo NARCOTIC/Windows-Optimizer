@@ -1,7 +1,7 @@
 @echo off
 mode 84,25
 
-goto menu
+goto permissions
 
 :1
   echo.
@@ -59,16 +59,41 @@ goto menu
 :5
   exit
 
+:permissions
+  net session >nul 2>&1
+  if %errorLevel% == 0 (
+    goto menu
+  ) else (
+    goto err
+  )
+  exit
+
 :done
-  color 0C
-  echo.
-  echo 8888b.   dP.Yb  88b 88 888888 
-  echo  8I  Yb dP   Yb 88Yb88 88__   
-  echo  8I  dY Yb   dP 88 Y88 88--   
-  echo 8888Y.   YbodP  88  Y8 888888                                
+  echo.  
+  echo oooooooooo.     .oooooo.   ooooo      ooo oooooooooooo 
+  echo `888'   `Y8b   d8P'  `Y8b  `888b.     `8' `888'     `8 
+  echo  888      888 888      888  8 `88b.    8   888         
+  echo  888      888 888      888  8   `88b.  8   888oooo8    
+  echo  888      888 888      888  8     `88b.8   888    "    
+  echo  888     d88' `88b    d88'  8       `888   888       o 
+  echo o888bood8P'    `Y8bood8P'  o8o        `8  o888ooooood8
   echo.
   echo.
   ping 8.8.8.8 -n 2 > nul
+
+:err
+  color 0C
+  echo oooooooooooo ooooooooo.   ooooooooo.     .oooooo.   ooooooooo.   
+  echo `888'     `8 `888   `Y88. `888   `Y88.  d8P'  `Y8b  `888   `Y88. 
+  echo  888          888   .d88'  888   .d88' 888      888  888   .d88' 
+  echo  888oooo8     888ooo88P'   888ooo88P'  888      888  888ooo88P'  
+  echo  888    "     888`88b.     888`88b.    888      888  888`88b.    
+  echo  888       o  888  `88b.   888  `88b.  `88b    d88'  888  `88b.  
+  echo o888ooooood8 o888o  o888o o888o  o888o  `Y8bood8P'  o888o  o888o
+  echo. 
+  echo Right click on the .bat file and "Run as Administrator"
+  ping 8.8.8.8 -n 10 > nul
+  exit
 
 :menu
   color 0A
