@@ -80,6 +80,7 @@ goto permissions
   echo.
   echo.
   ping 8.8.8.8 -n 2 > nul
+  goto menu
 
 :err
   color 0C
